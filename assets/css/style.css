@@ -229,6 +229,12 @@ body {
       text-align: -webkit-center;
     }
 
+    .work
+    .work2
+    .work3 {
+      align-content: center;
+    }
+
     nav {
       float: unset;
       text-align: center;
