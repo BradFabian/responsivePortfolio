@@ -22,12 +22,29 @@ body {
     
   }
 
-  .main-section {
+  .main-container {
     background-color: #fff;
     height: 15%;
     width: 75%;
   }
   
+  .main-section{
+
+    background-color: #fff;
+    height: 15%;
+    width: 75%;
+
+
+  }
+
+  .main-section-port{
+    background-color: #fff;
+    height: 15%;
+    width: 75%;
+    padding-bottom: 490px;
+    margin: auto;
+  }
+
   h1,
   h2,
   h3,
@@ -190,6 +207,8 @@ body {
   }
 
   @media screen and (max-width: 640px){
+
+    
     .container {
       width: 100%; position: sticky;
     }
@@ -198,10 +217,35 @@ body {
       margin: 0;
       
       
+      
     }
     #logo{
       width: 100%;
+    
       
+    }
+
+    h1 {
+      text-align: -webkit-center;
+    }
+
+    nav {
+      float: unset;
+      text-align: center;
+    }
+
+    .main-section {
+      margin: auto;
+      margin-top: 40px;
+    }
+
+    .main-section-port{
+      margin-top: 40px;
+      background-color: #fff;
+      height: 15%;
+      width: 75%;
+      padding-bottom: 800px;
+      margin: auto;
     }
 
     
