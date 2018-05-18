@@ -147,17 +147,44 @@ body {
 
   @media screen and (max-width: 980px){
 
+    body {
+
+      width: 85%;
+      height: 1000px;
+      margin: auto;
+    }
+
+    .container {
+      height: auto;
+    }
+
+    .auth-image {
+      width: 90%;
+      height: 100%;
+      margin: 15px 5% 20px 5%;
+    }
+
+
 
   }
 
   @media screen and (max-width: 768px){
+
+    body {
+      height: 1150px;
+    }
+    nav {
+      padding-right: 25px;
+      position: relative;
+    }
+
 
 
   }
 
   @media screen and (max-width: 640px){
     .container {
-      width: 100%; position: absolute;
+      width: 100%; position: sticky;
     }
     
     }
