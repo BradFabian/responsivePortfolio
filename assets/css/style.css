@@ -19,6 +19,13 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    
+  }
+
+  .main-section {
+    background-color: #fff;
+    height: 15%;
+    width: 75%;
   }
   
   h1,
@@ -123,6 +130,7 @@ body {
   .auth-image{
       float: left;
       margin-right: 20px;
+      padding-left: 20px;
   }
   #main-container {
     padding-top: 130px;
@@ -138,21 +146,18 @@ body {
     float:left;
     margin-left: 20px;
     
+    
   }
   .work3{
     clear: left;
     float:left;
+    
   }
 
 
   @media screen and (max-width: 980px){
 
-    body {
-
-      width: 85%;
-      height: 1000px;
-      margin: auto;
-    }
+    
 
     .container {
       height: auto;
@@ -177,7 +182,9 @@ body {
       padding-right: 25px;
       position: relative;
     }
-
+    .main-section{
+      margin: auto;
+    }
 
 
   }
@@ -186,6 +193,17 @@ body {
     .container {
       width: 100%; position: sticky;
     }
+    #masterhead {
+      width: 100%;
+      margin: 0;
+      
+      
+    }
+    #logo{
+      width: 100%;
+      
+    }
+
     
     }
 
